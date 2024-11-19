@@ -1,15 +1,50 @@
 # Web Scraping and NLP with Requests, BeautifulSoup, and spaCy
 
-Complete the tasks in the Python Notebook in this repository.
-Make sure to add and push the pkl or text file of your scraped html (this is specified in the notebook)
+## Title: webmin-06-project
 
-## Rubric
+### Name: Anjana Dhakal, Date:11/18/2024
 
-* (Question 1) Article html stored in separate file that is committed and pushed: 1 pt
-* (Question 2) Article text is correct: 1 pt
-* (Question 3) Correct (or equivalent in the case of multiple tokens with same frequency) tokens printed: 1 pt
-* (Question 4) Correct (or equivalent in the case of multiple lemmas with same frequency) lemmas printed: 1 pt
-* (Question 5) Correct scores for first sentence printed: 2 pts (1 / function)
-* (Question 6) Histogram shown with appropriate labelling: 1 pt
-* (Question 7) Histogram shown with appropriate labelling: 1 pt
-* (Question 8) Thoughtful answer provided: 1 pt
+### Obejectives:
+This exercise is used to practice web scraping (fetching and extracting information) and processing the content from a web page. 
+
+## Copy and clone base repository
+1. Copy the base repository into your GitHub account by selecting the "Use this Template" button on GitHub and specifying yourself as the owner.  The base repository is available at: https://github.com/wmnlp-materials/web-scrapingLinks to an external site.
+2. Clone YOUR new repo down to your machine.
+
+## Installation
+1. Activate venyl virtual environment
+ ```
+    python -m venv .env
+    source .env/bin/activate
+```
+2. Install the required packages: 
+
+```
+python -m pip install beautifulsoup4
+python -m pip install html5lib
+python -m pip install requests
+python -m pip install spacy
+python -m pip install spacytextblob 
+python -m pip install ipykernel
+python -m pip install matplotlib
+python -m pip install jupyterlab
+```
+## Tools and Libraries
+  1. BeautifulSoup4: For web scraping and parsing HTML documents
+  2. spaCy: For natural language processing, tokenization, and lemmatization.
+  3. SpacyTextBlob: For sentiment analysis.
+  4. Matplotlib: For visualizing sentence scores.
+  5. Requests: For fetching web pages.
+
+## Export to HTML
+Export Using Jupyter Menu
+more options (...) tap near outline in the home page of Jupyter Notebook and export as HTML.
+
+## Git add and commit
+
+```
+    git add .
+    git commit -m " project completed"
+    git push origin main
+
+```
