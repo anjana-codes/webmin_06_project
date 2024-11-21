@@ -14,8 +14,8 @@ This exercise is used to practice web scraping (fetching and extracting informat
 ## Installation
 1. Activate virtual environment
  ```
-    python -m venv .env
-    source .env/bin/activate
+    python -m venv .venv
+    venv\Scripts\activate
 ```
 2. Install the required packages: 
 
